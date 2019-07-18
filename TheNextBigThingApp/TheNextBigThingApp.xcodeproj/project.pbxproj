@@ -96,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				2256F8F422E04919001309C3 /* Frameworks */,
-				2256F8E422E04443001309C3 /* Vendor */,
 				225443BE22E01FD600B643D5 /* TheNextBigThingApp */,
 				225443D322E01FDB00B643D5 /* TheNextBigThingAppTests */,
 				225443DE22E01FDC00B643D5 /* TheNextBigThingAppUITests */,
@@ -143,13 +142,6 @@
 				225443E122E01FDC00B643D5 /* Info.plist */,
 			);
 			path = TheNextBigThingAppUITests;
-			sourceTree = "<group>";
-		};
-		2256F8E422E04443001309C3 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Vendor;
 			sourceTree = "<group>";
 		};
 		2256F8F422E04919001309C3 /* Frameworks */ = {
