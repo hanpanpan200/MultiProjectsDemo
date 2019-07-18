@@ -11,6 +11,6 @@ public final class AwesomeAPIClient {
     public static let shared = AwesomeAPIClient()
 
     public func testRun() {
-        print("AwesomeAPIClient is up and running 🤟")
+        print("AwesomeAPIClient is up and running 🤟 hahahah")
     }
 }

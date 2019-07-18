@@ -10,8 +10,8 @@
 		2254440122E0201100B643D5 /* AwesomeAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225443F722E0201100B643D5 /* AwesomeAPI.framework */; };
 		2254440622E0201100B643D5 /* AwesomeAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254440522E0201100B643D5 /* AwesomeAPITests.swift */; };
 		2254440822E0201100B643D5 /* AwesomeAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 225443FA22E0201100B643D5 /* AwesomeAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2254441222E0202900B643D5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254441122E0202900B643D5 /* File.swift */; };
-		2254441322E0202900B643D5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254441122E0202900B643D5 /* File.swift */; };
+		2254441222E0202900B643D5 /* AwesomeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254441122E0202900B643D5 /* AwesomeAPIClient.swift */; };
+		2254441322E0202900B643D5 /* AwesomeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2254441122E0202900B643D5 /* AwesomeAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,7 @@
 		2254440022E0201100B643D5 /* AwesomeAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2254440522E0201100B643D5 /* AwesomeAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeAPITests.swift; sourceTree = "<group>"; };
 		2254440722E0201100B643D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2254441122E0202900B643D5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		2254441122E0202900B643D5 /* AwesomeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			children = (
 				225443FA22E0201100B643D5 /* AwesomeAPI.h */,
 				225443FB22E0201100B643D5 /* Info.plist */,
-				2254441122E0202900B643D5 /* File.swift */,
+				2254441122E0202900B643D5 /* AwesomeAPIClient.swift */,
 			);
 			path = AwesomeAPI;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2254441222E0202900B643D5 /* File.swift in Sources */,
+				2254441222E0202900B643D5 /* AwesomeAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2254440622E0201100B643D5 /* AwesomeAPITests.swift in Sources */,
-				2254441322E0202900B643D5 /* File.swift in Sources */,
+				2254441322E0202900B643D5 /* AwesomeAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +367,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -393,7 +393,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.panpanhan.AwesomeAPI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
