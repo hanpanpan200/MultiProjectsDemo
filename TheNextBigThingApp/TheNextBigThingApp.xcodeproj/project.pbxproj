@@ -14,6 +14,8 @@
 		225443CA22E01FDB00B643D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225443C822E01FDB00B643D5 /* LaunchScreen.storyboard */; };
 		225443D522E01FDB00B643D5 /* TheNextBigThingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225443D422E01FDB00B643D5 /* TheNextBigThingAppTests.swift */; };
 		225443E022E01FDC00B643D5 /* TheNextBigThingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225443DF22E01FDC00B643D5 /* TheNextBigThingAppUITests.swift */; };
+		2256F8E022E02468001309C3 /* AwesomeAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2256F8DF22E02468001309C3 /* AwesomeAPI.framework */; };
+		2256F8E122E02468001309C3 /* AwesomeAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2256F8DF22E02468001309C3 /* AwesomeAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2256F8DE22E02172001309C3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2256F8E122E02468001309C3 /* AwesomeAPI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		225443BC22E01FD600B643D5 /* TheNextBigThingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNextBigThingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		225443BF22E01FD600B643D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +63,7 @@
 		225443DB22E01FDC00B643D5 /* TheNextBigThingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheNextBigThingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225443DF22E01FDC00B643D5 /* TheNextBigThingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNextBigThingAppUITests.swift; sourceTree = "<group>"; };
 		225443E122E01FDC00B643D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2254441422E020B400B643D5 /* AwesomeAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AwesomeAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2256F8DF22E02468001309C3 /* AwesomeAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AwesomeAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2256F8E022E02468001309C3 /* AwesomeAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +95,7 @@
 		225443B322E01FD600B643D5 = {
 			isa = PBXGroup;
 			children = (
-				2254441422E020B400B643D5 /* AwesomeAPI.framework */,
+				2256F8DF22E02468001309C3 /* AwesomeAPI.framework */,
 				225443BE22E01FD600B643D5 /* TheNextBigThingApp */,
 				225443D322E01FDB00B643D5 /* TheNextBigThingAppTests */,
 				225443DE22E01FDC00B643D5 /* TheNextBigThingAppUITests */,
@@ -137,6 +154,7 @@
 				225443B822E01FD600B643D5 /* Sources */,
 				225443B922E01FD600B643D5 /* Frameworks */,
 				225443BA22E01FD600B643D5 /* Resources */,
+				2256F8DE22E02172001309C3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
