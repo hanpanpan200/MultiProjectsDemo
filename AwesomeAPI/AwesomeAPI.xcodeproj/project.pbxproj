@@ -59,6 +59,7 @@
 				225443F922E0201100B643D5 /* AwesomeAPI */,
 				2254440422E0201100B643D5 /* AwesomeAPITests */,
 				225443F822E0201100B643D5 /* Products */,
+				225E4BB322E553A300654E5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,13 @@
 				2254440722E0201100B643D5 /* Info.plist */,
 			);
 			path = AwesomeAPITests;
+			sourceTree = "<group>";
+		};
+		225E4BB322E553A300654E5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
